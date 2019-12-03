@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "Copylink",
 	"description": "Click to copy the url of the current page to your clipboard",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"browser_action": {
 		"default_icon": "128_icon.png",
 		"default_popup": "index.html"

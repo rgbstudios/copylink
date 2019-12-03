@@ -4,12 +4,16 @@ textarea {
 	outline: none;
 	border: 2px solid hsl(30,100%,40%);
 	color: hsl(30,100%,30%);
-} ::selection, body, textarea {
+} ::selection {
 	background-color: hsl(30,100%,80%);
-} ::selection, h3 {
-	color: hsl(30,100%,40%);	
-} h3 {
-	text-align: center;
-} body, h3, textarea {
+} ::selection, h3, p {
+	color: hsl(30,100%,40%);
+} h3, p, textarea {
 	font-family: Roboto, Arial;
+	text-align: center;
+} #icon {
+	width: 40px;
+} #title {
+	display: inline;
+	letter-spacing: 2px;
 }
