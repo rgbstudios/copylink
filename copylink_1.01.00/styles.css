@@ -1,0 +1,15 @@
+textarea {
+	max-width: 600px;
+	max-height: 400px;
+	outline: none;
+	border: 2px solid hsl(30,100%,40%);
+	color: hsl(30,100%,30%);
+} ::selection, body, textarea {
+	background-color: hsl(30,100%,80%);
+} ::selection, h3 {
+	color: hsl(30,100%,40%);	
+} h3 {
+	text-align: center;
+} body, h3, textarea {
+	font-family: Roboto, Arial;
+}
