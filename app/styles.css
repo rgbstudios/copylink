@@ -9,11 +9,12 @@ textarea {
 } ::selection, h3, p {
 	color: hsl(30,100%,40%);
 } h3, p, textarea {
-	font-family: Roboto, Arial;
+	font-family: Arial;
 	text-align: center;
 } #icon {
-	width: 40px;
+	margin: 0 auto;
+	display: block;
+	width: 48px;
 } #title {
-	display: inline;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
