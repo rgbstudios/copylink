@@ -1,4 +1,6 @@
-textarea {
+body {
+	margin: 16px;
+} textarea {
 	max-width: 600px;
 	max-height: 400px;
 	outline: none;
@@ -11,10 +13,12 @@ textarea {
 } h3, p, textarea {
 	font-family: Arial;
 	text-align: center;
+} h3, p {
+	margin: 8px 0;
 } #icon {
 	margin: 0 auto;
 	display: block;
-	width: 48px;
+	width: 36px;
 } #title {
 	letter-spacing: 1px;
 }
